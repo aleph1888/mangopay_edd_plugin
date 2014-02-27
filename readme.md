@@ -8,12 +8,6 @@ Workflow
 ----
 Once the plugin is installed, use it as any other edd payment gateway.
 
-Agents
------
-- PHP @btc generator.
-- Bitcoin blockchain monitor: Daemon to monitor a list of btc addresses against an obelisk server and notify some web service.
-- Deterministic wallet: A deterministic wallet is a wallet where private and public keys are all derived from a starting seed value. Take hash(seed + n) where n starts from 1 and increment as additional keys are needed. Use this value to generate the nth private key.
-
 Configuration
 --------------
 1) Set gateway default values on *Campaings - Settings - Gateways*.
