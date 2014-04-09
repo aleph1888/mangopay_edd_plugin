@@ -31,14 +31,14 @@ Dependencies
 --------------
 - Mangopay SDKv2 (https://github.com/MangoPay/mangopay2-php-sdk
 
-##### Calaways EDD gateways bundle. Configure Plugins. Instructions in following README.md files
+##### Calaways EDD gateways bundle.
 
-* plugins/github/README.md
+* https://wiki.enredaos.net/index.php?title=COOPFUND-DEV#MANGOPAY
 
 
 License
 ----
-?
+GPL
 
 
 **Free Software, Hell Yeah!**
