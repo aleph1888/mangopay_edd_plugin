@@ -165,7 +165,7 @@ function pw_edd_process_payment( $purchase_data ) {
 				$error = true;
 			} else {
 				$output = $po -> mwp_send_to_token_server ( $data, $po->card_registration->CardRegistrationURL );
-				if ( ! $po -> mwp_validate_card ( $output ) ) {			
+				if ( ! $po -> mwp_validate_card ( $output ) ) {
 					edd_set_error('register card', $_SESSION["MWP_API_ERROR"], 'edd');
 					$error = true;
 				} 		
