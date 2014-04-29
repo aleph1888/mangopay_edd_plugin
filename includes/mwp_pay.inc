@@ -84,8 +84,7 @@ use MangoPay as m;
 				'accessKeyRef' => $createdCardRegister->AccessKey,
 				'cardNumber' => $cardNumber,
 				'cardExpirationDate'=> $cardDate,
-				'cardCvx' => $cardCvx,
-				'return_url' => plugin_dir_url (__FILE__) . 'mwp_payment.php'
+				'cardCvx' => $cardCvx
 			);
 			return $data;
 
